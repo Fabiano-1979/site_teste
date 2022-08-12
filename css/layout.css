@@ -1,0 +1,89 @@
+#principal {
+	margin: auto px;
+	font-family: arial;
+}
+
+/* div TOPO */
+#topo {	
+	padding: 5px;
+	display: grid;
+	grid-template-columns: auto auto;
+	margin: 5px auto 20px auto;	
+	grid-gap: 5px;
+	border-radius: 10px;
+	background-color: black;
+	color: white;	
+	justify-content: space-between;
+}
+
+#logo h1 {
+	line-height: 10px;
+	word-spacing: 0px; 
+}
+
+#logo h4{
+	line-height: 0px;
+	word-spacing: 5px; 
+}
+
+
+/* div CONTEUDO_ESPECIFICO  */
+#conteudo_especifico {	
+	padding: 5px;
+	display: grid;
+	grid-template-columns: 50% 50%;
+	margin: 0px auto 5px auto;	
+	grid-gap: 20px;
+}
+
+.div_esquerda {
+	margin: 0px auto auto 150px;
+}
+
+.div_direita {
+	margin: -30px 150px auto auto;
+}
+
+.div_central {
+	margin: auto 150px auto 150px;
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+/* div RODAPE */
+#rodape {	
+	padding: 5px;
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-template-rows: 50px;
+	margin: 20px auto 0px auto;
+	grid-gap: 5px;
+	border-radius: 10px;
+	background-color: black;
+	color: white;	
+	justify-content: space-between;
+}
+
+#rodape h5{
+	line-height: 0px;
+	word-spacing: 0px; 
+	margin: 24px auto 24px 24px;
+}
+
+
+.centralizar {
+	text-align: center;
+	padding: 40px 30px 40px 30px;
+}
+
+.direita {
+	text-align: right;
+}
+
+.esquerda {
+	text-align: left;
+}
+
+
+.borda {
+	border: solid red 2px;
+}

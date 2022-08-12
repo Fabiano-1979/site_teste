@@ -1,0 +1,219 @@
+/*Limpar Fromatações padão*/
+
+*{
+	margin: 0;
+	padding: 0; 
+}
+
+body{
+	font-size:  1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: black;
+}
+
+/*
+**** Layout ***
+*/
+#area-cabecalho-login{
+	background-color: black;
+	padding: 15px;
+	text-align: center;
+}
+
+
+
+#area-cabecalho{
+	background-color: black;
+	padding: 0px;
+	text-align: center;
+}
+
+
+#area-logo, #area-menu{
+	padding: 10px;
+}
+
+#area-principal{
+	background: lightgoldenrodyellow;
+	width: 920px;
+	margin: 0 auto;
+	padding: 15px;
+             
+}
+
+
+#area-postagens{
+	width: 660px;
+	float: left;
+}
+
+.postagem{
+	padding: 20px;
+	margin-bottom: 20px;
+	background: white;
+}
+
+.conteudo-lateral{
+	background: white;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+#area-lateral{
+	width: 240px;
+	float: right;
+}
+
+.texto-lateral{
+	font-size:  0.8em;
+	padding: 5px;
+	border-bottom:  1px dotted #CCC;
+}
+
+#rodape{
+	clear: both;
+	text-align: center;
+	padding: 15px;
+	background: black;
+}
+
+#listar-usuario{
+    color: white;
+    
+}
+
+/*
+***** Formatção do Menu ****
+*/
+a{
+	text-decoration: none;
+}
+
+a:link, a:visited{
+	color: crimson;
+}
+
+a:hover{
+	text-decoration: underline;;
+}
+
+#area-cabecalho a:link, #area-cabecalho a:visited{
+	color: #FFF;
+	padding: 8px 12px;
+}
+#area-cabecalho a:hover{
+	color: #f7b600;
+	background: #FFF;
+	text-decoration: none;
+}
+
+
+
+/*
+**** Formatações em geral *****
+*/
+h1{
+	color: #4e4e4e;
+	font-size: 2.5em;
+}
+
+h2{
+             color: gold;
+	font-size: 1.8em;
+}
+
+h3{
+	color: #565656;
+	background: lightgoldenrodyellow;
+	padding: 5px;
+}
+
+.v{
+	color: tomato;
+	background: lightgoldenrodyellow;
+	padding: 5px;
+             font-size: 1.5em;
+}
+
+h4 {
+    
+              color: gold;
+	background: black;
+	padding: 5px;
+             font-size: 1.4em;
+}
+
+h5{
+	color: #f7b600;
+	background: black;
+	padding: 5px;
+}
+
+h6{
+	color: #f7b600;
+	background: black;
+	padding: 5px;
+}
+
+
+.data-postagem{
+	font-size: 0.8em;
+	border-bottom: 1px solid #f4f4f4;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+/*===========Menu=================== */
+
+#tabs {
+	float:left;
+	width:100%;
+	background:black;
+	font-size:120%;
+	line-height:normal;
+	}
+	
+#tabs ul {
+	margin:0;
+	padding:10px 10px 0 50px;
+	list-style:none;
+	}
+	
+#tabs li {
+	display:inline;
+	margin:0;
+	padding:0;
+	}
+	
+#tabs a {
+	float:left;
+	background:url("tableft.gif") no-repeat left top;
+	margin:0;
+	padding:0 0 0 4px;
+	text-decoration:none;
+	}
+	
+#tabs a span {
+	float:left;
+	display:block;
+	background:url("tabright.gif") no-repeat right top;
+	padding:5px 15px 4px 6px;
+	color:#FFF;
+	}
+	
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+#tabs a span {float:none;}
+
+/* End IE5-Mac hack */
+#tabs a:hover span {
+	color:#FFF;
+	}
+	
+#tabs a:hover {
+	background-position:0% -42px;
+	}
+	
+#tabs a:hover span {
+	background-position:100% -42px;
+	}

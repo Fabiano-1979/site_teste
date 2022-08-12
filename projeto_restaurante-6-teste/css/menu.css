@@ -1,0 +1,49 @@
+/* menu_global */
+
+
+.menu_global li {
+    display: inline-flex;
+    margin: 15px 29px;
+	
+}
+
+.menu_global a {
+    text-decoration: none;
+    color: white;
+}
+/*
+.menu_global a.active {
+    color: yellow;
+}
+*/
+.menu_global a:hover {
+    color: orange;
+    transition: ease 0.5s;
+}
+
+
+
+/* menu local */
+
+.menu_local ul {
+	list-style: none;
+	padding: 0px;
+}
+.menu_local li {
+    margin: 15px 29px;	
+}
+
+.menu_local a {
+    text-decoration: none;
+	color: black;
+}
+
+/*
+.menu_local a.active {
+    color: blue;
+}
+*/
+.menu_local a:hover {
+    color: orange;
+    transition: ease 0.5s;
+}
